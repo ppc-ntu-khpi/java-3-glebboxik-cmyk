@@ -5,8 +5,9 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] data = {10, 45, 2, 33, 45, 30};
+        int result = Exercise.calculate(data);
+        
+        System.out.println("Друге за величиною число у масиві: " + result);
     }
 }
